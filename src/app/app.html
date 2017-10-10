@@ -6,10 +6,18 @@
   </ion-header>
 
   <ion-content>
-    <ion-list>
-      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
-        {{p.title}}
-      </button>
+    <ion-list no-lines>
+      <button ion-item menuClose><ion-icon name="wifi" item-left></ion-icon>Menu Point 1</button>
+      <button ion-item menuClose><ion-icon name="outlet" item-left></ion-icon>Menu Point 2</button>
+      <button ion-item menuClose><ion-icon name="videocam" item-left></ion-icon>Menu Point 3</button>
+      <button ion-item menuClose><ion-icon name="appstore" item-left></ion-icon>Menu Point 4</button>
+      <button ion-item menuClose><ion-icon name="stats" item-left></ion-icon>Menu Point 5</button>
+      <button ion-item menuClose><ion-icon name="cloud-download" item-left></ion-icon>Menu Point 6</button>
+      <button ion-item menuClose><ion-icon name="thermometer" item-left></ion-icon>Menu Point 7</button>
+      <button ion-item menuClose><ion-icon name="alarm" item-left></ion-icon>Menu Point 8</button>
+      <button ion-item menuClose><ion-icon name="pricetags" item-left></ion-icon>Menu Point 9</button>
+      <button ion-item menuClose><ion-icon name="people" item-left></ion-icon>Menu Point 10t</button>
+      <button ion-item menuClose><ion-icon name="log-out" item-left></ion-icon>Menu Point 11</button>
     </ion-list>
   </ion-content>
 
